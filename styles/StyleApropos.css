@@ -1,0 +1,169 @@
+body {
+    width:233px;
+    height: 400px;
+    margin: 0px;
+  ;
+         font-style: normal;
+}
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+         url('../fonts/Satoshi-Light.woff') format('woff'),
+         url('../fonts/Satoshi-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+}
+#BarMenu {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Satoshi';
+    color: #FFFFFF;
+}
+#SousMenu {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Background {
+        display: block;
+        background: linear-gradient(180deg, #130F40 0%, #262534 100%);
+        position: absolute;
+        height: 400px;
+        left: 0px;
+        top: 0px;
+        width: 233px;
+}
+.RectangleTitre {
+    width: 100px;
+    height: 35px;
+    left: 70px;
+    top: 16px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    position: absolute;
+}
+.Titre {
+    width: 76px;
+    height: 20px;
+    left: 82px;
+    top: 14px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #130F40;
+    position: absolute;
+}
+.Icone {
+    width: 54.85px;
+    height: 59px; 
+    position: absolute;
+    left: 8px;
+    top: 4px;
+}
+.Notification {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 205px;
+    top: 75px;
+}
+.BarMenu {
+    display: block;
+    width: 233px;
+    height: 28px;
+    left: 0px;
+    top: 68px;
+    background: #3C3875;
+    position: absolute;
+}
+
+.Preferences {
+    position: absolute;
+    width: 54px;
+    height: 11.93px;
+    left: 11px;
+    top: 76px;
+}
+.Score {
+    position: absolute;
+    width: 26px;
+    height: 14px;
+    left: 90px;
+    top: 76px;
+}
+.Apropos {
+    position: absolute;
+    width: 41px;
+    height: 14px;
+    left: 137px;
+    top: 76px;
+    white-space: nowrap;
+}
+#RectangleMenu {
+    background: linear-gradient(180deg, #191547 0%, #1C1849 100%);
+    border-radius: 5px 5px 0px 0px;
+    display: block;
+}
+.RectangleApropos {
+    position: absolute;
+    width: 64px;
+    height: 23px;
+    left: 131px;
+    top: 73px;
+}
+.SousMenu1 {
+    position: absolute;
+    width: 188px;
+    height: 86px;
+    left: 23px;
+    top: 142px;
+
+    font-family: 'Satoshi-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+.SousTitre1 {
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 23px;
+    top: 118px;
+    white-space: nowrap;
+}
+.SousTitre2 {
+    position: absolute;
+    width: 132px;
+    height: 27px;
+    left: 25px;
+    top: 260px;
+    white-space: nowrap;
+}
+.SousMenu2 {
+    position: absolute;
+    width: 188px;
+    height: 15px;
+    left: 25px;
+    top: 284px;
+    font-family: 'Satoshi-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: justify;
+}
