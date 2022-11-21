@@ -3,13 +3,11 @@
     "version" : "0.1.0",
     "description" : "UXCleaner est une extension web luttant contre les dark patterns.",
     "permissions" : ["storage", "tabs"],
-    "background" : {
-        "service_worker" : "background.js"
-    },
-    
+    "author" : "Mylan Beghin",
     "action": {
-      "default_popup": "hello.html",
-      "default_icon": "hello_extensions.png"
+      "default_popup": "preferences.html",
+      "default_icon": "images/icone.png",
+      "default_title": "UXCleaner"
     },
     "manifest_version": 3
 }
