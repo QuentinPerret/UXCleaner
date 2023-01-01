@@ -1,19 +1,21 @@
 body {
-    width:233px;
+    width: 233px;
     height: 400px;
     margin: 0px;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);       
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
 }
+
 @font-face {
     font-family: 'Satoshi-Light';
     src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
-         url('../fonts/Satoshi-Light.woff') format('woff'),
-         url('../fonts/Satoshi-Light.ttf') format('truetype');
-         font-weight: 300;
-         font-display: swap;
-         font-style: normal;
+        url('../fonts/Satoshi-Light.woff') format('woff'),
+        url('../fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
 }
+
 #BarMenu {
     text-decoration: none;
     font-style: normal;
@@ -23,15 +25,17 @@ body {
     font-family: 'Satoshi';
     color: #FFFFFF;
 }
+
 .Background {
-        display: block;
-        background: linear-gradient(180deg, #130F40 0%, #262534 100%);
-        position: absolute;
-        height: 400px;
-        left: 0px;
-        top: 0px;
-        width: 233px;
+    display: block;
+    background: linear-gradient(180deg, #130F40 0%, #262534 100%);
+    position: absolute;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    width: 233px;
 }
+
 .RectangleTitre {
     width: 100px;
     height: 35px;
@@ -41,6 +45,7 @@ body {
     border-radius: 30px;
     position: absolute;
 }
+
 .Titre {
     width: 76px;
     height: 20px;
@@ -54,13 +59,15 @@ body {
     color: #130F40;
     position: absolute;
 }
+
 .Icone {
     width: 54.85px;
-    height: 59px; 
+    height: 59px;
     position: absolute;
     left: 8px;
     top: 4px;
 }
+
 .Notification {
     position: absolute;
     width: 16px;
@@ -68,6 +75,7 @@ body {
     left: 205px;
     top: 75px;
 }
+
 .BarMenu {
     display: block;
     width: 233px;
@@ -85,6 +93,7 @@ body {
     left: 11px;
     top: 76px;
 }
+
 .Score {
     position: absolute;
     width: 26px;
@@ -92,6 +101,7 @@ body {
     left: 90px;
     top: 76px;
 }
+
 .Apropos {
     position: absolute;
     width: 41px;
@@ -100,11 +110,13 @@ body {
     top: 76px;
     white-space: nowrap;
 }
+
 #RectangleMenu {
     background: linear-gradient(180deg, #191547 0%, #1C1849 100%);
     border-radius: 5px 5px 0px 0px;
     display: block;
 }
+
 .RectangleApropos {
     position: absolute;
     width: 64px;
@@ -119,88 +131,93 @@ body {
     height: 16px;
     left: 96px;
     top: 128px;
-    
+
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
-    
+
     color: #FFFFFF;
-    
+
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* TEST */ 
+/* TEST */
 .RectangleDev {
     position: absolute;
     width: 80px;
     height: 32px;
     left: 24px;
     top: 318px;
-    
+
     background: #FFFFFF;
     border-radius: 30px;
 }
+
 .boutonpoledev {
-   
-position: absolute;
-width: 80px;
-height: 32px;
-left: 24px;
-top: 318px;
+
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 24px;
+    top: 318px;
 
 }
+
 .Ecriture {
-   
+
     position: absolute;
     width: 48px;
     height: 16px;
     left: 40px;
     top: 326px;
-    
+
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    
+
     color: #000000;
-    
-    }
+
+}
+
 .flecheretour {
     position: absolute;
-width: 12px;
-height: 12px;
-left: 30px;
-top: 130px;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: 130px;
 
-background: src="images/fleche.png";
+    background: src="images/fleche.png";
 }
 
 .teamwork {
     position: absolute;
-width: 165.34px;
-height: 104px;
-left: 33px;
-top: 171px;
+    width: 165.34px;
+    height: 104px;
+    left: 33px;
+    top: 171px;
 }
+
 .Ecriture2 {
     position: absolute;
-width: 44px;
-height: 16px;
-left: 148px;
-top: 326px;
+    width: 44px;
+    height: 16px;
+    left: 148px;
+    top: 326px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #000000;
+    color: #000000;
 
 }
+
 /* j'ai l'impression que rectangle et bouton c'est la même chose et que on peut supprimer l'un sans changer l'autre
 mais je suis pas sûr donc dans le doute je supprime pas*/
 .BoutonpoleUX {
@@ -209,246 +226,266 @@ mais je suis pas sûr donc dans le doute je supprime pas*/
     height: 32px;
     left: 130px;
     top: 318px;
-    
+
     opacity: 0.8;
 }
+
 .RectangleUX {
-    
-position: absolute;
-width: 80px;
-height: 32px;
-left: 130px;
-top: 318px;
 
-background: #FFFFFF;
-border-radius: 30px;
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 130px;
+    top: 318px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
 }
+
 .SousTitre2 {
-position: absolute;
-width: 116px;
-height: 16px;
-left: 59px;
-top: 120px;
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    left: 59px;
+    top: 120px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+
 .SousTitre3 {
-position: absolute;
-width: 45px;
-height: 16px;
-left: 94px;
-top: 118px;
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 94px;
+    top: 118px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+
 .flecheretour2 {
-position: absolute;
-width: 12px;
-height: 12px;
-left: 27px;
-top: 122px;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 27px;
+    top: 122px;
 }
+
 .Photo1 {
-position: absolute;
-width: 54px;
-height: 94px;
-left: 30px;
-top: 149px;
+    position: absolute;
+    width: 54px;
+    height: 94px;
+    left: 30px;
+    top: 149px;
 }
+
 .Photo2 {
-position: absolute;
-width: 104px;
-height: 192px;
-left: 123px;
-top: 100px;
+    position: absolute;
+    width: 104px;
+    height: 192px;
+    left: 123px;
+    top: 100px;
 }
+
 .Photo3 {
-position: absolute;
-width: 60px;
-height: 104px;
-left: 33px;
-top: 252px;
+    position: absolute;
+    width: 60px;
+    height: 104px;
+    left: 33px;
+    top: 252px;
 }
+
 .Photo4 {
-position: absolute;
-width: 57px;
-height: 99px;
-left: 141px;
-top: 252px;
+    position: absolute;
+    width: 57px;
+    height: 99px;
+    left: 141px;
+    top: 252px;
 }
+
 .Prenom1 {
-position: absolute;
-width: 84px;
-height: 25px;
-left: 21px;
-top: 231px;
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    left: 21px;
+    top: 231px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 
 }
+
 .Prenom2 {
-position: absolute;
-width: 87px;
-height: 16px;
-left: 131px;
-top: 231px;
+    position: absolute;
+    width: 87px;
+    height: 16px;
+    left: 131px;
+    top: 231px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF; 
+    color: #FFFFFF;
 }
+
 .Prenom3 {
-position: absolute;
-width: 79px;
-height: 16px;
-left: 23px;
-top: 343px;
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 23px;
+    top: 343px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-   
+
 }
+
 .Prenom4 {
-position: absolute;
-width: 74px;
-height: 16px;
-left: 136px;
-top: 343px;
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 136px;
+    top: 343px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
+
 .PhotoUX1 {
-position: absolute;
-width: 54px;
-height: 94px;
-left: 31px;
-top: 150px;
+    position: absolute;
+    width: 54px;
+    height: 94px;
+    left: 31px;
+    top: 150px;
 }
+
 .PhotoUX2 {
-position: absolute;
-width: 64px;
-height: 119px;
-left: 137px;
-top: 138px;  
+    position: absolute;
+    width: 64px;
+    height: 119px;
+    left: 137px;
+    top: 138px;
 }
+
 .PhotoUX3 {
-position: absolute;
-width: 57px;
-height: 99px;
-left: 31px;
-top: 253px;   
+    position: absolute;
+    width: 57px;
+    height: 99px;
+    left: 31px;
+    top: 253px;
 }
+
 .PhotoUX4 {
-position: absolute;
-width: 57px;
-height: 99px;
-left: 136px;
-top: 258px;
+    position: absolute;
+    width: 57px;
+    height: 99px;
+    left: 136px;
+    top: 258px;
 }
+
 .PrenomUX1 {
-position: absolute;
-width: 87px;
-height: 16px;
-left: 18px;
-top: 232px;
+    position: absolute;
+    width: 87px;
+    height: 16px;
+    left: 18px;
+    top: 232px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 
 }
+
 .PrenomUX2 {
-position: absolute;
-width: 89px;
-height: 16px;
-left: 125px;
-top: 232px;
+    position: absolute;
+    width: 89px;
+    height: 16px;
+    left: 125px;
+    top: 232px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
- 
+
 }
+
 .PrenomUX3 {
-position: absolute;
-width: 77px;
-height: 16px;
-left: 23px;
-top: 344px;
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 23px;
+    top: 344px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-  
+
 }
+
 .PrenomUX4 {
-position: absolute;
-width: 66px;
-height: 16px;
-left: 136px;
-top: 344px;
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 136px;
+    top: 344px;
 
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 
-color: #FFFFFF; 
+    color: #FFFFFF;
 }
