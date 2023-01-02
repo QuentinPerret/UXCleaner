@@ -22,12 +22,12 @@ body {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    font-family: 'Satoshi-Light';
+    font-family: 'Satoshi';
     color: #FFFFFF;
 }
 
 #SousMenu {
-    font-family: 'Satoshi-Light';
+    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -130,7 +130,7 @@ body {
 
 .RectangleApropos {
     position: absolute;
-    width: 59px;
+    width: 64px;
     height: 23px;
     left: 131px;
     top: 73px;
