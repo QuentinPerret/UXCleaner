@@ -1,17 +1,29 @@
 body {
-    width:233px;
+    width: 233px;
     height: 400px;
     margin: 0px;
 }
+
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+        url('../fonts/Satoshi-Light.woff') format('woff'),
+        url('../fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
 #BarMenu {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    font-family: 'Satoshi';
+    font-family: 'Satoshi-Light';
     color: #FFFFFF;
 }
+
 #SousMenu {
     font-family: 'Satoshi';
     font-style: normal;
@@ -23,15 +35,17 @@ body {
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .Background {
-        display: block;
-        background: linear-gradient(180deg, #130F40 0%, #262534 100%);
-        position: absolute;
-        height: 400px;
-        left: 0px;
-        top: 0px;
-        width: 233px;
+    display: block;
+    background: linear-gradient(180deg, #130F40 0%, #262534 100%);
+    position: absolute;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    width: 233px;
 }
+
 .RectangleTitre {
     width: 100px;
     height: 35px;
@@ -41,6 +55,7 @@ body {
     border-radius: 30px;
     position: absolute;
 }
+
 .Titre {
     width: 76px;
     height: 20px;
@@ -54,20 +69,15 @@ body {
     color: #130F40;
     position: absolute;
 }
+
 .Icone {
     width: 54.85px;
-    height: 59px; 
+    height: 59px;
     position: absolute;
     left: 8px;
     top: 4px;
 }
-.Notification {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 205px;
-    top: 75px;
-}
+
 .BarMenu {
     display: block;
     width: 233px;
@@ -76,7 +86,8 @@ body {
     top: 68px;
     background: #3C3875;
     position: absolute;
- }
+}
+
 .Preferences {
     position: absolute;
     width: 54px;
@@ -84,6 +95,7 @@ body {
     left: 11px;
     top: 76px;
 }
+
 .Score {
     position: absolute;
     width: 26px;
@@ -91,6 +103,7 @@ body {
     left: 90px;
     top: 76px;
 }
+
 .Apropos {
     position: absolute;
     width: 41px;
@@ -99,19 +112,22 @@ body {
     top: 76px;
     white-space: nowrap;
 }
+
 #RectangleMenu {
     background: linear-gradient(180deg, #191547 0%, #1C1849 100%);
     border-radius: 5px 5px 0px 0px;
     display: block;
 }
+
 .RectangleScore {
     display: block;
     position: absolute;
     width: 45px;
     height: 23px;
-    left: 84px;
+    left: 82px;
     top: 73px;
 }
+
 .UXScore {
     position: absolute;
     width: 53px;
@@ -119,6 +135,7 @@ body {
     left: 90px;
     top: 127px;
 }
+
 .RectangleChargement {
     position: absolute;
     width: 120px;
@@ -130,6 +147,7 @@ body {
     border-radius: 30px;
     align-items: center;
 }
+
 .Chargement {
     position: absolute;
     width: 78px;
@@ -144,4 +162,94 @@ body {
     line-height: 16px;
 
     color: #130F40;
+}
+
+#loader {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#group {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: 165px;
+}
+
+#group div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: rotation 0.8s linear infinite;
+}
+
+#group div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    transform: translate(-50%, -50%);
+}
+
+#group div:nth-child(2) {
+    transform: rotate(45deg);
+    animation-delay: 0.1s;
+}
+
+#group div:nth-child(3) {
+    transform: rotate(90deg);
+    animation-delay: 0.2s;
+}
+
+#group div:nth-child(4) {
+    transform: rotate(135deg);
+    animation-delay: 0.3s;
+}
+
+#group div:nth-child(5) {
+    transform: rotate(180deg);
+    animation-delay: 0.4s;
+}
+
+#group div:nth-child(6) {
+    transform: rotate(225deg);
+    animation-delay: 0.5s;
+}
+
+#group div:nth-child(7) {
+    transform: rotate(275deg);
+    animation-delay: 0.6s;
+}
+
+#group div:nth-child(8) {
+    transform: rotate(315deg);
+    animation-delay: 0.7s;
+}
+
+@keyframes rotation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.1;
+    }
+}
+
+.Notification {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 205px;
+    top: 75px;
 }
