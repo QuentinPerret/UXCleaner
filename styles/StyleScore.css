@@ -78,14 +78,6 @@ body {
     top: 4px;
 }
 
-.Notification {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 205px;
-    top: 75px;
-}
-
 .BarMenu {
     display: block;
     width: 233px;
@@ -252,4 +244,12 @@ body {
     to {
         opacity: 0.1;
     }
+}
+
+.Notification {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 205px;
+    top: 75px;
 }
