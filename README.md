@@ -6,4 +6,4 @@ Une partie de ces pratiques s'appuie sur des concepts dérivés de l’UX, on le
 Une première protection, bien connue, est l’utilisation d’un AdBlock mais elle reste insuffisante. 
 Ainsi lors de ce projet nous souhaitons proposer une nouvelle extension pour navigateur aux différents utilisateurs qui proposerait une meilleure protection face au Dark UX.
 
-Ce projet est réalisé par Quentin Perret / Zoé Ferfaille / Juliette Meunier (2ème année), Manon Blanchot / Mylan Beghin / Thomas Legay / Romain Guichot (1ère année) de l'ENSC.
+Ce projet est réalisé par Quentin Perret / Zoé Ferfaille / Juliette Meunier (2ème année), Manon Blanchot / Mylan Beghin / Thomas Legay / Romain Guichot / Pierre Parouty (1ère année) de l'ENSC.
