@@ -1,0 +1,282 @@
+body {
+    position: initial;
+    width: 232px;
+    height: 400px;
+    margin: 0px;
+    ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+        url('../fonts/Satoshi-Light.woff') format('woff'),
+        url('../fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+#BarMenu {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Satoshi';
+    color: #FFFFFF;
+}
+
+#SousMenu {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Background {
+    display: block;
+    background: linear-gradient(180deg, #130F40 0%, #262534 100%);
+    position: absolute;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    width: 233px;
+}
+
+.RectangleTitre {
+    width: 100px;
+    height: 35px;
+    left: 70px;
+    top: 16px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    position: absolute;
+
+}
+
+.Titre {
+    width: 76px;
+    height: 20px;
+    left: 82px;
+    top: 14px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #130F40;
+    position: absolute;
+}
+
+.Icone {
+    width: 54.85px;
+    height: 59px;
+    position: absolute;
+    left: 8px;
+    top: 4px;
+}
+
+.Flecheretour {
+
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 27px;
+    top: 76px;
+}
+
+.ecrituredetail {
+
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 91px;
+    top: 74px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #130F40;
+
+
+
+}
+
+.Barreblanche {
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    left: 0px;
+    top: 68px;
+
+    background: #FFFFFF;
+
+}
+
+.titresection {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 49px;
+    top: 125px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+
+
+}
+
+.DP1rectangle {
+    position: absolute;
+    width: 213px;
+    height: 40px;
+    left: 10px;
+    top: 163px;
+
+    background: #3C3875;
+
+}
+
+.DP1nom {
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 88px;
+    top: 175px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.DP1fleche {
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 192px;
+    top: 177px;
+
+}
+
+.DP1icone {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 21px;
+    top: 170px;
+}
+
+.DP2rectangle {
+    position: absolute;
+    width: 213px;
+    height: 40px;
+    left: 10px;
+    top: 211px;
+
+    background: #3C3875;
+
+}
+
+.DP3rectangle {
+    position: absolute;
+    width: 213px;
+    height: 40px;
+    left: 10px;
+    top: 259px;
+
+    background: #3C3875;
+}
+
+.DP2nom {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 80px;
+    top: 223px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+
+}
+
+.DP3nom {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 80px;
+    top: 271px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+
+}
+
+.DP2fleche {
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 191px;
+    top: 225px;
+
+}
+
+.DP3fleche {
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 191px;
+    top: 273px;
+
+}
+
+.DP2icone {
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 23px;
+    top: 221px;
+
+}
+
+.DP3icone {
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 23px;
+    top: 269px;
+
+}
