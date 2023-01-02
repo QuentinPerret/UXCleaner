@@ -261,3 +261,14 @@ body {
     color: #130F40;
     text-decoration: none;
 }
+
+.lien {
+    font-family: 'Satoshi-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
