@@ -172,7 +172,8 @@ body {
     height: 16px;
     left: 40px;
     top: 326px;
-
+    text-decoration: none;
+    white-space: nowrap;
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
@@ -207,7 +208,8 @@ body {
     height: 16px;
     left: 148px;
     top: 326px;
-
+    text-decoration: none;
+    white-space: nowrap;
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;

@@ -1,9 +1,8 @@
 body {
-    width: 233px;
+    width:233px;
     height: 400px;
     margin: 0px;
 }
-
 #BarMenu {
     text-decoration: none;
     font-style: normal;
@@ -13,7 +12,6 @@ body {
     font-family: 'Satoshi';
     color: #FFFFFF;
 }
-
 #SousMenu {
     font-family: 'Satoshi';
     font-style: normal;
@@ -25,17 +23,15 @@ body {
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .Background {
-    display: block;
-    background: linear-gradient(180deg, #130F40 0%, #262534 100%);
-    position: absolute;
-    height: 400px;
-    left: 0px;
-    top: 0px;
-    width: 233px;
+        display: block;
+        background: linear-gradient(180deg, #130F40 0%, #262534 100%);
+        position: absolute;
+        height: 400px;
+        left: 0px;
+        top: 0px;
+        width: 233px;
 }
-
 .RectangleTitre {
     width: 100px;
     height: 35px;
@@ -45,7 +41,6 @@ body {
     border-radius: 30px;
     position: absolute;
 }
-
 .Titre {
     width: 76px;
     height: 20px;
@@ -59,15 +54,13 @@ body {
     color: #130F40;
     position: absolute;
 }
-
 .Icone {
     width: 54.85px;
-    height: 59px;
+    height: 59px; 
     position: absolute;
     left: 8px;
     top: 4px;
 }
-
 .Notification {
     position: absolute;
     width: 16px;
@@ -75,7 +68,6 @@ body {
     left: 205px;
     top: 75px;
 }
-
 .BarMenu {
     display: block;
     width: 233px;
@@ -84,8 +76,7 @@ body {
     top: 68px;
     background: #3C3875;
     position: absolute;
-}
-
+ }
 .Preferences {
     position: absolute;
     width: 54px;
@@ -93,7 +84,6 @@ body {
     left: 11px;
     top: 76px;
 }
-
 .Score {
     position: absolute;
     width: 26px;
@@ -101,7 +91,6 @@ body {
     left: 90px;
     top: 76px;
 }
-
 .Apropos {
     position: absolute;
     width: 41px;
@@ -110,28 +99,19 @@ body {
     top: 76px;
     white-space: nowrap;
 }
-
 #RectangleMenu {
     background: linear-gradient(180deg, #191547 0%, #1C1849 100%);
     border-radius: 5px 5px 0px 0px;
     display: block;
 }
-
 .RectangleScore {
-
-
+    display: block;
     position: absolute;
-    width: 57px;
+    width: 45px;
     height: 23px;
-    left: 72px;
+    left: 84px;
     top: 73px;
-
-    background: linear-gradient(180deg, #191547 0%, #1B1748 100%);
-    border-radius: 5px 5px 0px 0px;
-
-
 }
-
 .UXScore {
     position: absolute;
     width: 53px;
@@ -139,7 +119,6 @@ body {
     left: 90px;
     top: 127px;
 }
-
 .RectangleChargement {
     position: absolute;
     width: 120px;
@@ -151,7 +130,6 @@ body {
     border-radius: 30px;
     align-items: center;
 }
-
 .Chargement {
     position: absolute;
     width: 78px;
