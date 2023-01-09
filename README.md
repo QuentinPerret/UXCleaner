@@ -7,3 +7,5 @@ Une première protection, bien connue, est l’utilisation d’un AdBlock mais e
 Ainsi lors de ce projet nous souhaitons proposer une nouvelle extension pour navigateur aux différents utilisateurs qui proposerait une meilleure protection face au Dark UX.
 
 Ce projet est réalisé par Quentin Perret / Zoé Ferfaille / Juliette Meunier (2ème année), Manon Blanchot / Mylan Beghin / Thomas Legay / Romain Guichot / Pierre Parouty (1ère année) de l'ENSC.
+
+Le projet n'étant pas abouti, l'extension n'a pas  encore été publié. pour l'essayer ajouter là localement à votre navigateur. Pour plus d'information à  ce sujet une documentation est disponible à [l'adresse suivante](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
